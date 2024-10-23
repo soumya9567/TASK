@@ -1,0 +1,35 @@
+.header{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.large{
+    
+    padding: 10px;
+    margin-right: 40px;
+    background-color: #454545;
+    display: inline;
+    color: white;
+}
+
+.main
+{
+    width: 900px;
+    background-color: whitesmoke;
+    margin-left: 100px;
+    padding: 50px;
+    
+}
+.header1{
+    background-color: #454545;
+    padding: 1px;
+    
+}
+.footer{
+    padding: 10px;
+    background-color: #454545;
+   text-align: center;
+   color: white;
+}
