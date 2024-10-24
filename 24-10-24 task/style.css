@@ -4,3 +4,11 @@
 .table{
     border: 1px solid  black;
 }
+.navbar{
+    display: flex;
+    justify-content:flex-start;   
+    
+}
+.navbar a:hover{
+    background-color: yellow;
+}
