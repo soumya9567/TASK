@@ -1,0 +1,82 @@
+.header
+{
+    
+    padding: 10px;
+    background-color:orange;
+    color: rgb(247, 246, 246);
+}
+.main{
+    color: yellowgreen;
+    text-align: left;
+    padding: 120px;
+    margin-left: 20px;
+}
+/* .sub
+{
+    padding-left: 120px;   
+} */
+.super{
+    color: yellowgreen;
+    text-align: left;
+    padding: 130px;
+    
+}
+.form{
+    background-color: navy;
+}
+.submit{
+    background-color:#5cb85c;
+    padding: 10px;
+    border-color: #5cb85c;
+    margin-left: 950px;
+    color: white;
+    width: 80px;
+    border: none;
+}
+.cancel{
+    background-color: red;
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+    width: 80px;
+    border: none;
+}
+.dob{
+    padding: 70px;
+    text-align: left;
+    color: yellowgreen;
+}
+.radio{
+    text-align: right;
+    color: yellowgreen;
+    
+
+}
+.first{
+    color: yellowgreen;
+    padding: 10px;
+    text-align: left;
+    padding-right: 170px;
+}
+.psd{
+    padding: 120px;
+    text-align: left;
+    color: yellowgreen;
+
+}
+.cnf{
+    padding: 90px;
+    text-align: left;
+    color: yellowgreen;
+
+}
+.agr {
+    display: flex;
+    align-items: center;
+    padding-left: 550px;
+    margin: 5px 0;
+     color: yellowgreen;}
+
+    .agr input {
+        margin-right: 20px;
+    }
