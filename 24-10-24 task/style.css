@@ -1,8 +1,10 @@
 .list{
     color: green;
 }
-.table{
+.table,th,td{
     border: 1px solid  black;
+    border-collapse: collapse;
+    padding: 3px;
 }
 .navbar{
     display: flex;
@@ -10,5 +12,40 @@
     
 }
 .navbar a:hover{
-    background-color: yellow;
+    color: red;
 }
+.button{
+    background-color: green;
+}
+
+
+.text-content{
+    color: blue;
+}
+.intro{
+    background-color: red;
+}
+.details{
+   background-color: green;
+
+}
+.conclusion{
+    background-color: brown;
+}
+.footer{
+    background-color: gray;
+}
+.alert{
+    background-color: yellow;
+    color: red;
+}
+blockquote{
+    font-family: italic;
+}
+footer{
+    background-color: whitesmoke;
+}
+
+
+
+

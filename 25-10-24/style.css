@@ -1,0 +1,28 @@
+/* universal selector */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+div{
+    text-align: left;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Playwrite GB S", cursive;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+h1{
+    line-height: normal;
+    font-weight: 50px;
+    margin-left: 80px;
+}
+span{
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
