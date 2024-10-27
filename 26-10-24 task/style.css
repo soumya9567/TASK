@@ -1,10 +1,61 @@
 .first{
     background-color: black;
+   padding: 15px;
 }
 .txt
 {
     color: white;
+    text-decoration: none;
+    padding-left: 80px;
 }
 .txt1{
     color: gray;
+    text-decoration: none;
+    padding-left: 80px;
+}
+main{
+    padding: 50px;
+}
+#inpt{
+    padding: 8px;
+    margin-left: 480px;
+}
+.btn{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+.second{
+    background-color: blue;
+   padding: 15px;
+}
+
+.btn1{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+.third{
+    background-color: #A7C7E7;
+   padding: 15px;
+}
+.txt2
+{
+    color: black;
+    text-decoration: none;
+    padding-left: 80px;
+}
+.btn2{
+    padding: 8px;
+    background-color: #A7C7E7;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 2px;
+
 }
