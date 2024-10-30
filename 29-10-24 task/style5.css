@@ -1,0 +1,23 @@
+.notify{
+    background-color:red;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    margin-left: 350px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.first{
+    background-color:rgba(135, 214, 135,0.5);
+}
+.second{
+    background-color:rgba(58, 85, 206, 0.5);
+}
+.third{
+    background-color:rgba(233, 88, 44, 0.5);
+}
+h2{
+    text-align: center;
+}
