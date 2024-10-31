@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('./image/photo2.jpg'); */
+    background-size: cover;
+    border: 1px solid white;
+    position: fixed;
+    top: 0px;
+    animation: slide 16s infinite;
+    
+    
+
+}
+
+@keyframes slide {
+    0% { background-image: url('./image/photo7.jpg'); }
+    25% { background-image: url('./image/photo3.jpg'); }
+    50% { background-image: url('./image/photo6.jpg'); }
+    75% { background-image: url('./image/photo4.jpg'); }
+    100% { background-image: url('./image/photo5.jpg'); }
+}
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.2); ;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.flr{
+    color: white;
+    font-size: xx-large;
+    padding-top: 80px;
+    padding-right: 100px;
+    
+   
+}
+.icon{
+    padding-top: 10px;
+}
+#input{
+    color: gray;
+    width: 700px;
+    padding: 9px;
+    border-radius:5px ;
+    border: none;
+    align-items: center;
+    background-color:rgb(241, 237, 237);
+    margin: 2px;
+  }
+.login{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:100px ;
+    
+}
+button{
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size:medium;
+    margin-left: 30px;
+}
+.main{
+   text-align: center;
+   color: white;
+   font-size: x-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 150px;
+}
+.Start{
+    color: black;
+    background-color: white;
+    width: 200px;
+   height: 70px;
+   font-size: x-large;
+   overflow: hidden;
+   
+}
+footer
+{
+    position: fixed;
+    bottom: 1px;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+select{
+    background-color: black;
+    border: none;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+i{
+    color: lightgrey;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    margin-left: 45px;
+    
+}
