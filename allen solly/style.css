@@ -203,7 +203,7 @@ header{
     text-align: center;
     display: flex;
     align-items: center;
-    border: 1px dotted  black;
+    border: 1px dashed  black;
     background-color: rgb(246, 203, 61);
     border-radius: 5px;
     color: rgb(46, 46, 128);
@@ -227,7 +227,7 @@ header{
     width: 500px;
     height: 160px;
     margin-top:-100px;
-    margin-left: 700px;
+    margin-left: 900px;
     display: flex;
 
 
@@ -235,7 +235,12 @@ header{
 .divider{
     margin-top: 80px;
 }
-.discover{
+
+.divider .divide{
+   width: 100vw;
+
+}
+.discover{justify-content: center;
     margin-top: 50px;
     text-align: center;
     color: navy;
@@ -244,6 +249,25 @@ p{
     text-align: center;
    color:  rgb(77, 75, 75) ;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.spotlight{
+
+width: 500px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: navy;
+margin-left: 700px;
+margin-top: 20px;font-size: medium;
+}
+
+.spotlight-model{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
