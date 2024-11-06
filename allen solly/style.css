@@ -1,12 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
-    /* border: 1px solid black; */
-    
-}
+  
+  }
+  
+ 
+  html, body {
+    height: 100%;         
+    overflow-x: hidden;   
+    overflow-y: auto;     
+  }
+  
 nav{
-    width: 100vw;
+    /* width: 100vw; */
     height: 40px;
     background-color: rgb(43, 42, 42);
     display: flex;
@@ -85,7 +91,7 @@ nav{
     border-left: 1px solid rgb(86, 83, 83);
 }
 header{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100px;
     /* border: 2px solid black; */
 }
@@ -113,20 +119,29 @@ header{
 }
 
 .express-delivery {
-    width: 300px;
+    width: 250px;
     height: 50px;
     background-color: rgb(252, 208, 14);
+    margin-left: 30px;
     
     display: flex; 
-    flex-direction: column;
+    /* flex-direction: row; */
     border-radius: 20px; 
+}
+.express-delivery img{
+    padding-left: 10px;
 }
 
 .logo-container {
-    display: flex; 
-     
-    flex-direction: row;
+    width: 500px;
+    height: 5px;
+    display: flex;  
+    flex-direction: column;
+    position: relative;
+    top: -5px;
+    left: 20px;
 }
+
 
 .logo-container img {
     width: 40px; 
@@ -135,16 +150,21 @@ header{
 }
 .logo-container span{
     display: flex;
-    flex-direction: column;
+    width: 150px;
+    height: 2px;
+  
+    /* border: 1px solid red; */
+    font-size: 12px;
+    
 }
 
 .background-scroll{
-    width: 100vw;
+    /* width: 100vw; */
     height: 500px;
     
 }
 .background-scroll{
-    width: 100vw;
+    /* width: 100vw; */
     height: 800px;
     /* margin-top: 130px; */
     /* background-image: url('./images/bg pic 1.jpg'); */
@@ -163,7 +183,7 @@ header{
 
 
 .circle{
-    width: 90vw;
+    /* width: 90vw; */
     height: 300px;
     border: none;
     margin: auto;
@@ -175,7 +195,7 @@ header{
    
 }
 .section-qr{
-    width: 100vw;
+    /* width: 100vw; */
     height: 250px;
     background-color: rgb(248, 241, 176);
    
@@ -239,11 +259,10 @@ header{
     margin-top: 80px;
 }
 
-.divider .divide{
-   width: 100vw;
 
-}
-.discover{justify-content: center;
+.discover
+{
+    justify-content: center;
     margin-top: 50px;
     text-align: center;
     color: navy;
@@ -263,7 +282,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 color: navy;
-margin-left: 700px;
+margin-left: 400px;
 margin-top: 20px;font-size: medium;
 }
 
@@ -332,7 +351,7 @@ margin-top: 20px;font-size: medium;
 .blue-container{
     /* border: 2px solid violet; */
     background-color: rgb(5, 35, 74);
-    width: 100vw;
+    /* width: 100vw; */
     height: 950px;
     margin-top: 50px;
    
@@ -456,7 +475,7 @@ margin-top: 20px;font-size: medium;
 }
 
 .main-box{
-    width: 90vw;
+    /* width: 90vw; */
     height: 600px;
     border: 1px solid grey;
     margin-left: 60px;
@@ -495,7 +514,7 @@ margin-top: 20px;font-size: medium;
 }
 
 .refer-section{
-    width: 90vw;
+    /* width: 90vw; */
     height: 230px;
     /* border: 2px solid black; */
     background-size: cover;
@@ -504,7 +523,7 @@ margin-top: 20px;font-size: medium;
 
 
 .yellow-box{
-    width: 100vw;
+    /* width: 100vw; */
     height: 180px;
     box-direction: 1px solid black;
     background-color: rgb(239, 201, 10);
@@ -561,7 +580,7 @@ margin-top: 20px;font-size: medium;
     width: 350px;
     height: 60px;
     position: relative;
-    left: 600px;
+    left: 500px;
     text-align: center;
     background-color: navy;
     color: white;
@@ -588,7 +607,7 @@ margin-top: 20px;font-size: medium;
 }
 
 .community{
-    width: 100vw;
+    /* width: 100vw; */
     height: 200px;
     border: 1px solid grey; 
     display: flex;
@@ -606,11 +625,48 @@ margin-top: 20px;font-size: medium;
     top: -10px;
 }
 .last-container{
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .Fashion-solly{
     color: gray;
     font-size: medium;
    
+}
+.last-container p{
+    text-align: start;
+    color: rgb(52, 52, 52);
+    font-size: small;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer span{
+    border-right: 1px solid black;
+    line-height: 1px;
+    padding: 10px;
+    position: relative;
+    left: 30PX;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 52, 52);;
+}
+.terms{
+    border: none;
+}
+footer p{
+    font-size: small;
+    /* border: 1px solid black; */
+    margin-left: 400px;
+   
+}
+
+.underline2
+{       height: 7px;
+       
+        background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      
 }
