@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
+    /* border: 1px solid black; */
     
 }
 nav{
@@ -25,7 +27,8 @@ nav{
 }
 .left-section .brand{
     border: none;
-    background-color: rgb(43,42,42);
+    background-color: rgb(43,42,42    /* flex-direction:column ; */
+    );
     color:white ;
     margin-right: 20px;
 }
@@ -283,7 +286,8 @@ margin-top: 20px;font-size: medium;
 
 } 
 
-.spotlight-model-pattern span{
+.spotlight-model-pattern span{        
+
     
     position: relative;
     top: -100px;
@@ -600,4 +604,13 @@ margin-top: 20px;font-size: medium;
     position:relative;
     left: 120px;
     top: -10px;
+}
+.last-container{
+    margin-left: 100px;
+}
+
+.Fashion-solly{
+    color: gray;
+    font-size: medium;
+   
 }
