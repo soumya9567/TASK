@@ -1,48 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     overflow-y: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
 }
 
-.first-icon img{
+.first-icon img {
     width: 100px;
 }
 
-.first-icon span{
+.first-icon span {
     margin: 10px;
     font-size: 20PX;
 }
-.right-side-icons{
+
+.right-side-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.right-icon{
+.right-icon {
     margin: 20px;
     padding: 15px 10px 15px 10px;
     border-radius: 25px;
     border: 1px solid rgb(228, 226, 226);
     /* box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; */
 }
-.right-icon:hover{
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+.right-icon:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
-.nav-bar{
-    width: 40vw;
-    height: 60px;
-    border: 1px solid black;
-    display: flex;
-    border-radius: 25px;
 
+.nav-bar {
+    width: 60vw;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 35px;
+    padding: 0 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20%;
+
+}
+
+.nav1 {
+    overflow: hidden;
+    width: 200px;
+    height: 60px;
+    margin-left: -25px;
+    padding-left:  35px;
+    padding-top: 5px;
+    
+}
+
+.nav2 {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: black;
+    border-left: 1PX SOLID rgb(212, 209, 209);
+    /* line-height: 10px; */
+    overflow: hidden;
+
+}
+
+
+.nav-bar span:hover {
+    height: 30PX;
+    background-color: #ddd;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-down {
+    color: gray;
 }
