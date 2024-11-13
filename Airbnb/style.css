@@ -17,6 +17,8 @@ header {
     margin: 20px;
 }
 
+ 
+
 .first-icon img {
     width: 100px;
 }
@@ -47,7 +49,7 @@ header {
 }
 
 .nav-bar {
-    width: 40vw;
+    width: 45vw;
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -58,6 +60,8 @@ header {
     background-color: #f8f8f8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 30%;
+    margin-top: -20px;
+    overflow: hidden;
 
 }
 
@@ -146,16 +150,173 @@ section  img{
  }
 
  .grid-container2{
+    width: 100vw;
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px;
-    column-gap: 50px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    column-gap: 30px;
     display: flex;
  }
  .grid-new-item{
     background-color: blue;
     padding: 25px;
     text-align: center;
-    /* padding-bottom: 500px; */
+    padding-bottom: 230px;
+    padding-right: 250px;
     border-radius: 5px;
+
    
  }
+
+ #product1{
+    background-image: url(./images/productimg1.png);
+    background-size: cover;
+ }
+
+ #product2{
+    background-image: url(./images/product1mg2.png);
+    background-size: cover;
+ }
+ #product3{
+    background-image: url(./images/productimg3.png);
+    background-size: cover;
+ }
+ #product4{
+    background-image: url(./images/productimg4.png);
+    background-size: cover;
+ }
+
+ .grid-span2{
+   
+    display: flex;
+   
+
+ }
+
+
+ .grid-container3{
+    width: 100vw;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    column-gap: 30px;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+ }
+ .grid-new-item01{
+    /* background-color: blue; */
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 230px;
+    padding-right: 250px;
+    border-radius: 5px;
+
+   
+ }
+
+ #product5{
+    background-image: url(./images/productimg5.png);
+    background-size: cover;
+
+ }
+ 
+ #product6{
+    background-image: url(./images/productimg6.png);
+    background-size: cover;
+
+ }
+ #product7{
+    background-image: url(./images/productimg7.png);
+    background-size: cover;
+ }
+
+ #product8{
+    background-image: url(./images/productimg8.png);
+    background-size: cover;
+ }
+
+ .grid-span3{
+   
+    display: flex;
+   
+
+ }
+
+ 
+ #product9{
+    background-image: url(./images/productimg9.png);
+    background-size: cover;
+
+ }
+ 
+ #product10{
+    background-image: url(./images/productimg10.jpeg);
+    background-size: cover;
+
+ }
+ #product11{
+    background-image: url(./images/productimg11.png);
+    background-size: cover;
+ }
+
+ #product12{
+    background-image: url(./images/productimg12.png);
+    background-size: cover;
+ }
+
+  
+ #product13{
+   background-image: url(./images/imagepic13.png);
+   background-size: cover;
+
+}
+
+#product14{
+   background-image: url(./images/imagepic.14.jpg);
+   background-size: cover;
+
+}
+#product15{
+   background-image: url(./images/imagepic16.png);
+   background-size: cover;
+}
+
+#product16{
+   background-image: url(./images/imagepic.15.png);
+   background-size: cover;
+}
+  
+#product17{
+   background-image: url(./images/imagepic17.png);
+   background-size: cover;
+
+}
+
+#product18{
+   background-image: url(./images/imagepic18.png);
+   background-size: cover;
+
+}
+#product19{
+   background-image: url(./images/imagepic.19.png);
+   background-size: cover;
+}
+
+#product20{
+   background-image: url(./images/imagepic20.jpeg);
+   background-size: cover;
+}
+#product21{
+   background-image: url(./images/imagepic21.png);
+   background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+   .header {
+     display: none;  /* Hide the header on small screens */
+   }
+}
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  .head-sect p{
+   font-family: "Montserrat", sans-serif;
+   font-size:x-large;
+  }
