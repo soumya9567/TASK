@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: navy;
+    animation-name: animation1;
+    animation-duration: 2s;
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: palevioletred;
+    animation-name: animation2;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes animation1 {
+
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 800px;
+    }
+
+}
+
+/* @keyframes animation2 {
+
+    from{
+        height: 200px;
+    }
+    to{
+        height: 700px;
+    }
+    
+} */
+
+
+@keyframes animation2 {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 350px;
+        left: 0px;
+    }
+     50%{
+        top: 350px;
+        left: 850px
+    }
+    75%{
+        top: 0px;
+        left: 850px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+     
+}
