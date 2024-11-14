@@ -3,11 +3,11 @@
     padding: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
-    margin-left:15px ;
+    margin-left:10px ;
 }
 header {
     display: flex;
@@ -320,3 +320,66 @@ section  img{
    font-family: "Montserrat", sans-serif;
    font-size:x-large;
   }
+
+  .head-sect{
+   width: 100vw;
+   height: 700px;
+ 
+  position: relative;
+  background-color: rgb(242, 242, 242);
+  /* margin-left: -10px; */
+  }
+
+  .head-sect p{
+   position: absolute;
+   top: 50px;
+   
+  }
+  .spans{
+    width: 1000px;
+    height: 50px;
+    /* border: 1px solid black; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: absolute;
+   top: 80px;
+   font-family:"Montserrat", sans-serif; ;
+  }
+  .down-span{
+   opacity: 0.8;
+  }
+
+  .grid-contain {
+   display: grid;
+   /* border: 1px solid black; */
+   width: 1200px;
+   /* border-top: 1px solid grey;
+   border-bottom: 1px solid grey; */
+   grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+   grid-template-rows: repeat(3, auto); /* rows adjust based on content */
+   gap: 10px;
+   list-style: none; /* Remove bullet points */
+  margin: -20px;
+   position: relative;
+   top: -600px;
+   z-index: 1;
+ }
+ 
+ .grid-items {
+   /* background-color: #f0f0f0; */
+   padding: 20px;
+   /* border: 1px solid #ccc; */
+   text-align: center;
+ }
+ 
+ .title {
+   font-weight: bold;
+   font-size: small;
+ }
+ 
+ .description {
+   margin-top: 10px;
+   font-size: 1em;
+   opacity: 0.8;
+ }
